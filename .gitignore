@@ -13,7 +13,6 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-.htaccess
-/public/.htaccess
 /public/sitemap.xml
 /public/robots.txt
+.env.prod
