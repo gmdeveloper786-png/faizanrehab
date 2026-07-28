@@ -1,0 +1,79 @@
+.service-catagery-list ul li.active  {
+    color: var(--accent-color) !important;
+    font-size: 18px !important;
+        font-weight: 500 !important;
+        text-transform: capitalize !important;
+        transition: all 0.3s ease-in-out !important;
+}
+.service-catagery-list ul li.active:before {
+    background-color: var(--accent-color) !important;
+}
+
+.navbar-brand img, .footer-logo img {
+    max-width: 180px;
+    margin-left: -20px;
+}
+.service-page-header:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255 / 30%);
+}
+.page-header.remedial-therapy {
+    background-image: url("/images/services/remedial therapy/header-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-testimonials .video-wrapper {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-testimonials video {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.play-badge{
+    position:absolute;
+    left:14px;
+    bottom:14px;
+    inset:auto;
+    pointer-events:none;
+}
+
+
+.play-badge i {
+    font-size: 48px;
+    color: #fff;
+    background: rgba(0,0,0,0.45);
+    padding: 18px 22px;
+    border-radius: 50%;
+}
+
+.video-item {
+    background: transparent;
+    border: 0px;
+    padding: 16px;
+    border-radius: 0px;
+    /* box-shadow: 0 15px 40px rgba(0,0,0,0.08); */
+}
+
+.video-item h3 {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.testimonial-role {
+    font-size: 14px;
+    color: #777;
+}
